@@ -25,7 +25,6 @@ function isNumberPrime(number) {
     for (let i = 2; i < number; i++) {
       if (number % i == 0) {
         isPrime = false;
-        return false;
       }
     }
 
